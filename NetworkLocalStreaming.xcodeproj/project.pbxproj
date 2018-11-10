@@ -20,16 +20,16 @@
 
 /* Begin PBXFileReference section */
 		EC1D7F292196FD5100D1545F /* NetworkLocalStreaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkLocalStreaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1D7F2C2196FD5100D1545F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC1D7F2E2196FD5100D1545F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1D7F2C2196FD5100D1545F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; usesTabs = 0; };
+		EC1D7F2E2196FD5100D1545F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		EC1D7F312196FD5100D1545F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC1D7F332196FD5200D1545F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1D7F362196FD5200D1545F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1D7F382196FD5200D1545F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC1D7F3E2196FDAE00D1545F /* CIImage+compressedBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+compressedBy.swift"; sourceTree = "<group>"; };
-		EC1D7F402196FDD800D1545F /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
-		EC1D7F422196FDE300D1545F /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
-		EC4DA93C2197235D0059D22B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC1D7F3E2196FDAE00D1545F /* CIImage+compressedBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+compressedBy.swift"; sourceTree = "<group>"; usesTabs = 0; };
+		EC1D7F402196FDD800D1545F /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; usesTabs = 0; };
+		EC1D7F422196FDE300D1545F /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; usesTabs = 0; };
+		EC4DA93C2197235D0059D22B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
