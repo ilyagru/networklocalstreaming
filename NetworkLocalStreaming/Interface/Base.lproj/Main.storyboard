@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NetworkLocalStreaming" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MyG-1D-QjZ">
+                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="517"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ke5-Lm-SEs">
+                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="517"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryW-yW-Rlq">
+                                <rect key="frame" x="20" y="617" width="140" height="30"/>
+                                <state key="normal" title="Start Client / Stream"/>
+                                <connections>
+                                    <action selector="startClient:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QzW-eZ-uK9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwH-XM-BYc">
+                                <rect key="frame" x="215" y="617" width="140" height="30"/>
+                                <state key="normal" title="Start Server"/>
+                                <connections>
+                                    <action selector="startServer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cmf-9g-dw4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ke5-Lm-SEs" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2mL-HA-ToS"/>
+                            <constraint firstItem="rwH-XM-BYc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ryW-yW-Rlq" secondAttribute="trailing" constant="10" id="9Dl-LX-qpF"/>
+                            <constraint firstItem="ke5-Lm-SEs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="J2b-Pr-hqr"/>
+                            <constraint firstItem="MyG-1D-QjZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J4f-eP-aCJ"/>
+                            <constraint firstItem="ke5-Lm-SEs" firstAttribute="width" secondItem="MyG-1D-QjZ" secondAttribute="width" id="NI6-3S-1UO"/>
+                            <constraint firstItem="ryW-yW-Rlq" firstAttribute="width" secondItem="rwH-XM-BYc" secondAttribute="width" id="OV1-He-2xX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ryW-yW-Rlq" secondAttribute="bottom" constant="20" id="cZM-mD-l7f"/>
+                            <constraint firstItem="MyG-1D-QjZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fTx-gB-ZfN"/>
+                            <constraint firstItem="ryW-yW-Rlq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="h8m-9k-c2G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MyG-1D-QjZ" secondAttribute="bottom" constant="150" id="hvg-sj-phP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rwH-XM-BYc" secondAttribute="bottom" constant="20" id="kRj-jO-pZF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ke5-Lm-SEs" secondAttribute="bottom" constant="150" id="ueB-UI-pxa"/>
+                            <constraint firstItem="MyG-1D-QjZ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="xvG-BD-3kW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rwH-XM-BYc" secondAttribute="trailing" constant="20" id="zRn-wS-RQ1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="outputImageView" destination="ke5-Lm-SEs" id="Qda-BN-Ug1"/>
+                        <outlet property="previewView" destination="MyG-1D-QjZ" id="upb-8s-haN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
