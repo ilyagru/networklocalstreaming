@@ -1,7 +1,7 @@
 # Reproduced demo from WWDC 2018 _"Introducing Network.framework: A modern alternative to Sockets"_
 
-<img src="Screenshot-1.png" alt="screenshot-camera" width="300">
-<img src="Screenshot-2.png" alt="screenshot-camera" width="300">
+<img src="Screenshot-1.png" alt="screenshot-camera" width="250">
+<img src="Screenshot-2.png" alt="screenshot-camera" width="250">
 
 ## Description
 

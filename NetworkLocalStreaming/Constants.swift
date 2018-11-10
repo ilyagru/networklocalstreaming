@@ -7,10 +7,10 @@
 //
 
 struct Constants {
-	
-	// Name of the device to connect to
-	static let serverName: String = <#Server device name#>
-	// Type for a service endpoint that represents a Bonjour service
-	static let serviceType = "_camera._udp"
+
+    // Name of the device to connect to
+    static let serverName: String = <#Server device name#>
+    // Type for a service endpoint that represents a Bonjour service
+    static let serviceType = "_camera._udp"
 
 }
